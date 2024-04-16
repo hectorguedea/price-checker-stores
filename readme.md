@@ -22,13 +22,21 @@ Price Checker is a PHP application designed to compare product prices between tw
 1. Clone the Repository:
    ```bash
    git clone https://github.com/hectorguedea/price-checker-stores.git
+   ```
 2. Install Dependencies:
     ```bash
    composer install
+   ```
 3. Configuration
 - Configure the product comparison settings in the `include/upload.php` file, based on the pattern of columns of your exported Excel files (`$cells)`.
 - Set up the login credentials in the `include/sistema.class.php` file on at¡rray constant `USER_DATA` 
 
+## Usage
+
+To use the application, navigate to the project directory and start your PHP server:
+```bash
+php -S localhost:8000
+```
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
